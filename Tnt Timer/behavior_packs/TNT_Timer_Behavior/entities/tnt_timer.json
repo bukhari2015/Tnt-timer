@@ -1,0 +1,31 @@
+{
+    "format_version": "1.19.50",
+    "minecraft:entity": {
+      "description": {
+        "identifier": "custom:tnt_timer",
+        "is_spawnable": true,
+        "is_summonable": true
+      },
+      "components": {
+        "minecraft:timer": {
+          "looping": false,
+          "ticks": 80, 
+          "on_tick": {
+            "event": "update_timer"
+          }
+        }
+      },
+      "events": {
+        "update_timer": {
+          "sequence": [
+            {
+              "run_command": {
+                "command": "function tnt_timer_display"
+              }
+            }
+          ]
+        }
+      }
+    }
+  }
+  

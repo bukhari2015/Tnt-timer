@@ -1,0 +1,18 @@
+{
+    "format_version": 2,
+    "header": {
+      "name": "TNT Timer Behavior",
+      "description": "A TNT timer with seconds and milliseconds.",
+      "uuid": "225a2f98-c366-11ef-9cd2-0242ac120002",
+      "version": [1, 0, 0]
+    },
+    "modules": [
+      {
+        "description": "Behavior Module",
+        "type": "data",
+        "uuid": "225a2f98-c366-11ef-9cd2-0242ac120002",
+        "version": [1, 0, 0]
+      }
+    ]
+  }
+  

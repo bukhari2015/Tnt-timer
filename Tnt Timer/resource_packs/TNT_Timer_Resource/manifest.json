@@ -1,0 +1,18 @@
+{
+    "format_version": 2,
+    "header": {
+      "name": "TNT Timer Resource",
+      "description": "Displays a countdown timer for TNT.",
+      "uuid": "225a2f98-c366-11ef-9cd2-0242ac120002",
+      "version": [1, 0, 0]
+    },
+    "modules": [
+      {
+        "description": "Resource Module",
+        "type": "resources",
+        "uuid": "225a2f98-c366-11ef-9cd2-0242ac120002",
+        "version": [1, 0, 0]
+      }
+    ]
+  }
+  
